@@ -1,19 +1,19 @@
 # Airbnb clone
 
-> #### backend
+> ### backend
 >
-> Python
-> Django
-> Django REST Framework
-> Graphene GraphQL
-
-> #### frontend
+> - Python
+> - Django
+> - Django REST Framework
+> - Graphene GraphQL
+     
+> ### frontend
 >
-> ReactJS
-> Chakra UI
-> Render
-
-> #### 구현하는 기능
+> - ReactJS
+> - Chakra UI
+> - Render
+     
+> ### 구현하는 기능
 >
 > 숙소 마켓플레이스
 >
@@ -22,3 +22,5 @@
 > - 예약
 > - 후기
 > - 대시보드 기능 등
+
+nomadcoders.co 강의 참고
