@@ -37,7 +37,7 @@ SYSTEM_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 ]
-
+THIRD_PARTY_APPS = ["rest_framework"]
 CUSTOM_APPS = [
     "bookings.apps.BookingsConfig",
     "categories.apps.CategoriesConfig",
@@ -51,7 +51,7 @@ CUSTOM_APPS = [
     "wishlists.apps.WishlistsConfig",
 ]
 
-INSTALLED_APPS = SYSTEM_APPS + CUSTOM_APPS
+INSTALLED_APPS = SYSTEM_APPS + THIRD_PARTY_APPS + CUSTOM_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
