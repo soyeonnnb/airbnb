@@ -1,5 +1,5 @@
 from rest_framework.viewsets import ModelViewSet
-from .models import Category as Category
+from .models import Category
 from .serializer import CategorySerializer
 
 
